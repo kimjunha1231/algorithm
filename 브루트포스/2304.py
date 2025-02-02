@@ -40,4 +40,4 @@ else:
             result += (height[0] - container[k][0]) * height[1]
             height = container[k]
     result += abs(container[end_idx][0] - height[0]) * height[1]
-print(result)
+    print(result)
